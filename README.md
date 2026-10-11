@@ -1,3 +1,14 @@
-Set-Content README.md "# DSA Python Journey"
-Add-Content README.md ""
-Add-Content README.md "My Data Structures and Algorithms learning journey using Python."
+# DSA Python Journey
+
+My Data Structures and Algorithms practice using Python.
+
+## Topics
+- Time Complexity
+- Arrays
+- Strings
+
+## Problems Solved
+- Second Largest Element
+- Binary Search
+- Remove Duplicates from Sorted Array
+- Missing Number
