@@ -1,0 +1,16 @@
+class Solution(object):
+    def maxProfit(self, prices):
+        Max_price=0
+        Min_price=prices[0]
+        for right in range(1,len(prices)):
+            profit=prices[right]-Min_price
+            if profit>Max_price:
+                Max_price=profit
+            if prices[right]<Min_price:
+                Min_price=prices[right]
+        return Max_price
+prices=[7,1,5,3,6,4]
+sol=Solution()
+ans=sol.maxProfit(prices)
+print(ans)
+        
