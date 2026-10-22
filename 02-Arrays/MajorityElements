@@ -1,0 +1,19 @@
+class Solution(object):
+    def majorityElement(self, nums):
+        count=0
+        left=0
+        for num in range(len(nums)):
+            if count==0:
+                left=nums[num]
+            if left==nums[num]:
+                count+=1
+            else:
+                count-=1
+        return left
+nums=[3,2,3]
+sol=Solution()
+ans=sol.majorityElement(nums)
+print(ans)
+        
+        
+        
